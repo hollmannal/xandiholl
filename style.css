@@ -1,0 +1,30 @@
+@import url("components/card.css");
+@import url("components/button.css");
+
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #F8B232;
+}
+
+.container {
+	width: 400px;
+	margin: 0 auto;
+}
+
+h2, p {
+	font-size: 16px;
+}
+
+p {
+	opacity: 0.5;
+	font-size: 14px;
+}
+
+i {
+	color: orange;
+}
+
+i.disabled {
+	color: lightgrey;
+}
